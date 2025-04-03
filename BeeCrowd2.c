@@ -1,14 +1,19 @@
-#include <stdio.h>
+#include <stdio.h>  // Biblioteca padrão de entrada e saída
 
 int main(){
-int A , B , X;
+    int A, B, X;  // Declaração de três variáveis inteiras: A, B e X
+
+    // Lê um valor inteiro do usuário e armazena na variável A
+    scanf("%d", &A);  
     
-scanf("%d", &A);
-scanf("%d", &B);
+    // Lê outro valor inteiro do usuário e armazena na variável B
+    scanf("%d", &B);  
 
-X=A+B;
+    // Calcula a soma de A e B e armazena o resultado em X
+    X = A + B;
 
-printf("X = %d\n", X);
+    // Exibe o resultado da soma no formato "X = valor"
+    printf("X = %d\n", X);  
 
-return 0; 
+    return 0;  // Indica que o programa terminou com sucesso
 }
